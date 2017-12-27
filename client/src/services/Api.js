@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 export default () => {
+  console.log('hitting the base URL')
   return axios.create({
-    baseUrl: 'http://localhost:8080'
+    baseURL: 'http://localhost:8081/'
   })
 }

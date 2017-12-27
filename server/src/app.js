@@ -1,4 +1,3 @@
-console.log('hello')
 const express=require('express')
 const bodyParser=require('body-parser')
 const cors=require('cors')
@@ -16,4 +15,4 @@ app.post('/register', (req,res)=>{
   })
 })
 
-app.listen(process.env.port || 8080)
+app.listen(process.env.port || 8081, console.log('listening on 8080'))
