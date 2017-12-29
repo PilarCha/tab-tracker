@@ -19,7 +19,7 @@ module.exports = {
             break
           case 'password':
             res.status(400).send({
-              error: 'The pass word provided didnt have the following things: <br> 1. It must contain ONLY the following characters: lowercase, uppercase, numerics <br> 2: It must be at least 8 characters in length No more than 32!'
+              error: "The password provided didn't have the following things: <br> 1. It must contain ONLY the following characters: lowercase, uppercase, numerics <br> 2: It must be at least 8 characters in length No more than 32!"
             })
             break
           default:
