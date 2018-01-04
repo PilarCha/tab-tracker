@@ -8,5 +8,9 @@ export default{
   login (credentials) {
     console.log('hit the login')
     return Api().post('login', credentials)
+  },
+  create (credentials) {
+    console.log('HIT THE create method')
+    return Api().post('create', credentials)
   }
 }
