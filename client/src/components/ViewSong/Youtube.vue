@@ -4,14 +4,13 @@
     <youtube
     :video-id="youtube"
     :player-width="500"
-    :player-height="210">
+    :player-height="310">
 
     </youtube>
   </panel>
 </template>
 
 <script>
-import Panel from '@/components/Panel'
 import VueYouTubeEmbed from 'vue-youtube-embed'
 
 export default {
@@ -19,7 +18,6 @@ export default {
     'youtube'
   ],
   components: {
-    Panel,
     VueYouTubeEmbed
   }
 }
