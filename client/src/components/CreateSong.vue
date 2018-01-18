@@ -53,6 +53,7 @@
 
       </panel>
     </v-flex>
+
     <v-flex xs8>
       <panel title="Song-Structure" class="ml-2">
       <v-text-field
